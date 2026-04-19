@@ -1,28 +1,28 @@
 class Drift < Formula
   desc "Opinionated CLI for Supabase-backed iOS, macOS, and web projects"
   homepage "https://github.com/Undrift/drift"
-  version "1.9.0"
+  version "1.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.9.0/drift-darwin-arm64"
-      sha256 "fdb72a8dada2d00706d597dd1f7db838476934c8ae5510a379aa444425d90b3f"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.10.0/drift-darwin-arm64"
+      sha256 "92c9beaae0f98d73e7e5f56d1eb389213b3e7fc55e03e8813f75e58cb8c09f13"
     end
     on_intel do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.9.0/drift-darwin-amd64"
-      sha256 "7f64f110cc6a8bcdac09d574c399def5a87cf6e132ceafb0d5c945ac75f6d015"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.10.0/drift-darwin-amd64"
+      sha256 "6b9b7265e1c11e8a73e3da55e9903d8671dc00e4127281ce65d61667c4126f1f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.9.0/drift-linux-arm64"
-      sha256 "ec3f886679ab8a210a8cfd3443d5dab60502e5422e6faf655933ca7baf394dae"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.10.0/drift-linux-arm64"
+      sha256 "c21bb18dbfcd674133cce00d82bda721aba37c0f44c53edd8eb2dfdb8423908c"
     end
     on_intel do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.9.0/drift-linux-amd64"
-      sha256 "e4b1cf264be9e3ef379c227555fd4eb38e3e8ca06f1bbf85d6d888cc9d59a7e2"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/v1.10.0/drift-linux-amd64"
+      sha256 "15bcc60760a33252e0e73be9e54312afc874da46c67f92b6672fc7064f03b93a"
     end
   end
 
