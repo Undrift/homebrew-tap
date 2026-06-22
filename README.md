@@ -1,12 +1,15 @@
-# Homebrew Tap for Drift
+# Homebrew Tap for Undrift
 
-This is the official Homebrew tap for [drift](https://github.com/Undrift/drift) (private), an opinionated CLI for Supabase-backed iOS, macOS, and web projects.
+The official Homebrew tap for Undrift's CLIs:
+- [drift](https://github.com/Undrift/drift) (private) — opinionated CLI for Supabase-backed iOS, macOS, and web projects.
+- [undrift](https://github.com/Harris-A-Khan/undrift-dashboard) (private) — CLI for the Undrift / Tether marketing CRM.
 
 ## Installation
 
 ```bash
 brew tap Undrift/tap
-brew install drift
+brew install drift     # the dev workflow CLI
+brew install undrift   # the marketing CRM CLI
 ```
 
 ## Quick Install Script
@@ -33,8 +36,10 @@ brew untap Undrift/tap
 | Formula | Description |
 |---------|-------------|
 | `drift` | Opinionated CLI for Supabase-backed iOS, macOS, and web projects |
+| `undrift` | CLI for the Undrift / Tether marketing CRM |
 
 ## Links
 
 - [drift repository](https://github.com/Undrift/drift) (private)
-- [drift releases](https://github.com/Undrift/homebrew-tap/releases)
+- [undrift repository](https://github.com/Harris-A-Khan/undrift-dashboard) (private)
+- [releases](https://github.com/Undrift/homebrew-tap/releases)
