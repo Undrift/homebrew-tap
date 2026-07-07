@@ -1,28 +1,28 @@
 class Undrift < Formula
   desc "CLI for the Undrift / Tether marketing CRM"
   homepage "https://github.com/Harris-A-Khan/undrift-dashboard"
-  version "0.4.2"
+  version "0.4.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.2/undrift-darwin-arm64"
-      sha256 "d9b9cf66c28fd6be881642208d31b6a9a1fe0d59792d9a5286de8700fc1f7a53"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.3/undrift-darwin-arm64"
+      sha256 "5fc167c0b667a96307f34dca73aa4dc08405abc055c5df5884455c85af41adf5"
     end
     on_intel do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.2/undrift-darwin-amd64"
-      sha256 "0f6b0928ad3e702b5b1dd858948a68f7312854b243b665e112463ebd7cc60ada"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.3/undrift-darwin-amd64"
+      sha256 "fd06ec7c7c2654323d513149feb02ef2c5f829af877377330c2dbfcb56711011"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.2/undrift-linux-arm64"
-      sha256 "4ad464bf28341d8d0d97abf898a24f966522522e8649fd7af0124fcdb00f8c86"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.3/undrift-linux-arm64"
+      sha256 "5b598c85883439712315e5eed0db67c09620bd2a260e10f47970a21233abcb51"
     end
     on_intel do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.2/undrift-linux-amd64"
-      sha256 "74aad8a41299b9be530b334c3217f36d16cca10095f29ccd3f0aa841c275a49b"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/undrift-v0.4.3/undrift-linux-amd64"
+      sha256 "67478088161681e836870b2dc523f9abea75c2e3b644bf0589563281d41350bf"
     end
   end
 
