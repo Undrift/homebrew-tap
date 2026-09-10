@@ -1,25 +1,25 @@
 class Learnt < Formula
   desc "A personal classroom in your terminal"
   homepage "https://github.com/Harris-A-Khan/learnt"
-  version "0.2.14"
+  version "0.2.16"
   on_macos do
     on_arm do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.14/learnt-darwin-arm64.tar.gz"
-      sha256 "873dd4e87c426b89be5b0313233bba1c8fa142e1f1640f32f83783bd9f4c2dfe"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.16/learnt-darwin-arm64.tar.gz"
+      sha256 "81e5a06aa5d4fb01e89d1f7e59e6ad1338b1362e137d8683ca4eb69fc01e5344"
     end
     on_intel do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.14/learnt-darwin-amd64.tar.gz"
-      sha256 "a3658197fc3495d31cba6373543de18ea394aec8830eb1f3efd73cefd8559820"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.16/learnt-darwin-amd64.tar.gz"
+      sha256 "35c515ae169eb8cf56624434b0071c4105658feff92718fd9aa043a5f640a77c"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.14/learnt-linux-arm64.tar.gz"
-      sha256 "3df70eae5c75564d209497b1149e5270073350fde2d2f9f28f46c53363fde53f"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.16/learnt-linux-arm64.tar.gz"
+      sha256 "ac3f8971a944bfe5b0df8d1ffa3f7fb633e5ef00174fd23aae09a37d6ebeabb2"
     end
     on_intel do
-      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.14/learnt-linux-amd64.tar.gz"
-      sha256 "7bc8d2781af7d9f3893482d05dda73495672f62ffa9597e1d3cd8e1d8d45543c"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.2.16/learnt-linux-amd64.tar.gz"
+      sha256 "3185985fabc1ddbc64301dbcfacdeb6aadafe73f340e1ab7d8d0548555085f90"
     end
   end
   depends_on "git"
