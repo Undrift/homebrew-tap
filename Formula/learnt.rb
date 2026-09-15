@@ -4,9 +4,9 @@ class Learnt < Formula
   version "0.5.4"
   on_macos do
     on_arm do
-      version "0.5.8"
-      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.5.8/learnt-darwin-arm64.tar.gz"
-      sha256 "257b9fd1fc72839b2a1a0b9264984c88829213da9cf6f3f01159288f252779de"
+      version "0.5.9"
+      url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.5.9/learnt-darwin-arm64.tar.gz"
+      sha256 "80dc4c8b12bea589662108419d142f42810608f47ad3adbf4ddbb4d639fb8ad2"
     end
     on_intel do
       url "https://github.com/Undrift/homebrew-tap/releases/download/learnt-v0.5.4/learnt-darwin-amd64.tar.gz"
